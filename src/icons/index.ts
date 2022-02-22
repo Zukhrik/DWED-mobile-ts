@@ -1,0 +1,6 @@
+export {ArrowLeftSvg} from './Arrow'
+export {DWEDSvg} from './DWED'
+export {HomeSvg} from './Home'
+export {SearchSvg} from './Search'
+export {LogInSvg} from './LogIn'
+export {ProfileSvg} from './Profile'

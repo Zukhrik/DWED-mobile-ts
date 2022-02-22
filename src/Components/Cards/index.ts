@@ -1,0 +1,1 @@
+export {ShortCard} from './organisms'

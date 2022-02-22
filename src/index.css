@@ -1,13 +1,55 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --bold-text: "GolosBold", sans-serif;
+    --regular-text: "Golos", sans-serif;
+    --medium-text: "GolosMedium", sans-serif;
+    --demi-text: "GolosDemi", sans-serif;
+    --black-text: "GolosBlack", sans-serif;
+    --chat-header-height: 50px;
+    --basic-shadow: 0 4px 8px rgba(38, 38, 38, 0.15);
+    --input-border-color: #f0f1f2;
+    --basic-border-radius: 4px;
+    --primary-dwed: #1da1f2;
+    --grey-border: #e4e9f2;
+    --default-white: #fff;
+    --active-bg: #DDF1FD;
+    --dark-dwed: #262626;
+    --input-bg: #fbfbfb;
+    --grey-dwed: #7F92A0;
+    --icon-color: #231F20;
+    --danger-dwed: #FF5A5F;
+    --ethic-color: #706FD3;
+    --input-hover-bg: #f5f9ff;
+    --aesthetic-color: #FD9644;
+    --light-grey-dwed: #464a54;
+    --bottom-navbar-height: 54px;
+    --input-focus-color: #0095ff;
+    --input-hover-color: #eaf4ff;
+    --input-danger-color: #ff3d71;
+    --professional-color: #2BCBBA;
+    --basic-grey-bg: #F8F8F8;
+    --basic-active-background: rgba(29, 161, 242, 0.15);
 }
